@@ -61,6 +61,21 @@ class _TimelineListState extends State<TimelineList> {
               style: TextStyle(fontWeight: FontWeight.bold),),
             )
           ],
+        ),
+        Column(
+          children: <Widget>[
+            Container(
+              padding: EdgeInsets.all(8.0),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: <Widget>[
+                  Icon(Icons.face, color: Colors.pinkAccent,size: 30.0,),
+                  Icon(Icons.chat, color: Colors.greenAccent,size: 30.0,),
+                  Icon(Icons.share, color: Colors.blueAccent,size: 30.0,),
+                ],
+              ),
+            )
+          ],
         )
       ],
     );
