@@ -1,10 +1,28 @@
 import 'package:flutter/material.dart';
+import 'package:line/models/timeline_model.dart';
 
 class TimelineList extends StatefulWidget {
   _TimelineListState createState() => _TimelineListState();
 }
 
 class _TimelineListState extends State<TimelineList> {
+
+  List<TimelineModel> timelineList = new List<TimelineModel>();
+
+  _TimelineListState() {
+    timelineList.add(TimelineModel('VIVO Thailand Official', 'http://db.lnwfile.com/_/db/_raw/qv/qs/cn.png', 'https://selular.id/wp-content/uploads/2018/09/IMG_20180911_092730.jpg'));
+    timelineList.add(TimelineModel('VIVO Thailand Official', 'http://db.lnwfile.com/_/db/_raw/qv/qs/cn.png', 'https://selular.id/wp-content/uploads/2018/09/IMG_20180911_092730.jpg'));
+    timelineList.add(TimelineModel('VIVO Thailand Official', 'http://db.lnwfile.com/_/db/_raw/qv/qs/cn.png', 'https://selular.id/wp-content/uploads/2018/09/IMG_20180911_092730.jpg'));
+    timelineList.add(TimelineModel('VIVO Thailand Official', 'http://db.lnwfile.com/_/db/_raw/qv/qs/cn.png', 'https://selular.id/wp-content/uploads/2018/09/IMG_20180911_092730.jpg'));
+    timelineList.add(TimelineModel('VIVO Thailand Official', 'http://db.lnwfile.com/_/db/_raw/qv/qs/cn.png', 'https://selular.id/wp-content/uploads/2018/09/IMG_20180911_092730.jpg'));
+    timelineList.add(TimelineModel('VIVO Thailand Official', 'http://db.lnwfile.com/_/db/_raw/qv/qs/cn.png', 'https://selular.id/wp-content/uploads/2018/09/IMG_20180911_092730.jpg'));
+    timelineList.add(TimelineModel('VIVO Thailand Official', 'http://db.lnwfile.com/_/db/_raw/qv/qs/cn.png', 'https://selular.id/wp-content/uploads/2018/09/IMG_20180911_092730.jpg'));
+    timelineList.add(TimelineModel('VIVO Thailand Official', 'http://db.lnwfile.com/_/db/_raw/qv/qs/cn.png', 'https://selular.id/wp-content/uploads/2018/09/IMG_20180911_092730.jpg'));
+    timelineList.add(TimelineModel('VIVO Thailand Official', 'http://db.lnwfile.com/_/db/_raw/qv/qs/cn.png', 'https://selular.id/wp-content/uploads/2018/09/IMG_20180911_092730.jpg'));
+  }
+
+
+
   @override
   Widget build(BuildContext context) {
     return ListView(
