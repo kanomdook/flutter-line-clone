@@ -18,19 +18,19 @@ class _TimelineListState extends State<TimelineList> {
         ));
 
         timelineList.add(TimelineModel(
-        'VIVO Thailand Official',
-        'http://db.lnwfile.com/_/db/_raw/qv/qs/cn.png',
-        'https://selular.id/wp-content/uploads/2018/09/IMG_20180911_092730.jpg',
-        'สัมผัสมุมมองใหม่ เรียบหรูกว่าที่เคย โดดเด่นด้วยรูปทรงบางเฉียบบน V11 In-Display Fingerfrint ID ด้วยดีไซน์ แบบ Halo FullView Display จอแสดงผลอัตราส่วน 19.5:9 มาพร้อมกับเทคโนโลยีบนจอแสดงผล Super AMOLED...',
-        '12 นาทีที่แล้ว'
+        'OPPO Find X',
+        'https://seeklogo.com/images/O/oppo-logo-BECA4F3EAB-seeklogo.com.png',
+        'https://www.panorama.it/wp-content/uploads/2018/06/Oppo-Find-X-2-1000x600.jpg',
+        'มือถือสุดล้ำจาก OPPO รุ่นล่าสุด OPPO Find X เรามาดูกันดีกว่าว่า ใช้จริงแล้วเป็นอย่างไร รีวิวตามจริงโดยหนุ่ย พงศ์สุข ที่นี่เลย!',
+        '19 นาทีที่แล้ว'
         ));
 
         timelineList.add(TimelineModel(
-        'VIVO Thailand Official',
-        'http://db.lnwfile.com/_/db/_raw/qv/qs/cn.png',
-        'https://selular.id/wp-content/uploads/2018/09/IMG_20180911_092730.jpg',
-        'สัมผัสมุมมองใหม่ เรียบหรูกว่าที่เคย โดดเด่นด้วยรูปทรงบางเฉียบบน V11 In-Display Fingerfrint ID ด้วยดีไซน์ แบบ Halo FullView Display จอแสดงผลอัตราส่วน 19.5:9 มาพร้อมกับเทคโนโลยีบนจอแสดงผล Super AMOLED...',
-        '12 นาทีที่แล้ว'
+        'SAMSUNG',
+        'https://learnbonds.com/wp-content/uploads/Samsung-logo-square.png',
+        'https://c.slashgear.com/wp-content/uploads/2018/03/samsung-galaxy-s9-review--980x620.jpg',
+        'Samsung Galaxy S9 S9+ มาพร้อมรูรับแสงคู่ให้คุณถ่ายรูปสวยได้ทั้งตอนกลางวัน กลางคืน ในที่แสงน้อย เปลี่ยนเหตุการณ์ธรรมดาให้เป็นช่วงเวลาพิเศษ ดูราคา สเปค s9 plus ที่นี่.',
+        '1 ชั่วโมงที่แล้ว'
         ));
 
         timelineList.add(TimelineModel(

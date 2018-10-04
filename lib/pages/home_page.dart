@@ -10,6 +10,16 @@ class HomePage extends StatelessWidget {
           'ไทม์ไลน์',
           style: TextStyle(color: Colors.white),
         ),
+        actions: <Widget>[
+          IconButton(
+            icon: Icon(Icons.important_devices, color: Colors.white,),
+            onPressed: () {},
+          ),
+          IconButton(
+            icon: Icon(Icons.more_vert, color: Colors.white,),
+            onPressed: () {},
+          ),
+        ],
       ),
       body: TimelineList(),
       bottomNavigationBar: BottomNavigationBar(
